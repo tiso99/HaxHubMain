@@ -1,5 +1,5 @@
 local HttpService = game:GetService("HttpService")
-local whitelistUrl = "https://raw.githubusercontent.com/yourusername/yourrepository/main/whitelist.lua"
+local whitelistUrl = "https://raw.githubusercontent.com/tiso99/HaxHubMain/main/whitelist.lua"
 
 -- Function to fetch the whitelist from GitHub
 local function fetchWhitelist()
