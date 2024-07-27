@@ -25,7 +25,7 @@ onlywooska = "owner",
     Sw0rdm3nc = "SMuveqJ8no3cP5aV",
     Isreal123 = "r7mOpBewCC4AL1EC",
     test = "eLh7H4huxjbz8Yne",
-    a;pp,cpre = "XqS8jjwC4R4iHEV2",
+    aloomcore = "UOnA3vHXL4y7S51G",
 }
 
 return whitelist
