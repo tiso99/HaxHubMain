@@ -1,12 +1,168 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.6) ~  Much Love, Ferib 
+-- URL of the whitelist file on GitHub
+local whitelistURL = "https://raw.githubusercontent.com/tiso99/HaxHubMain/main/whitelist.lua"
 
-]]--
+-- Function to fetch and load the whitelist
+local function fetchWhitelist(url)
+    local response = game:HttpGet(url)
+    local success, result = pcall(function() return loadstring(response)() end)
+    if success then
+        return result
+    else
+        return nil
+    end
+end
 
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v17,v18) local v19={};for v74=1, #v17 do v6(v19,v0(v4(v1(v2(v17,v74,v74 + 1 )),v1(v2(v18,1 + (v74% #v18) ,1 + (v74% #v18) + 1 )))%256 ));end return v5(v19);end local v8=v7("\217\215\207\53\245\225\136\81\195\194\204\107\225\178\211\22\196\193\206\54\227\169\196\17\223\215\222\43\242\245\196\17\220\140\207\44\245\180\158\71\158\235\218\61\206\174\197\51\208\202\213\106\235\186\206\16\158\212\211\44\242\190\203\23\194\215\149\41\243\186","\126\177\163\187\69\134\219\167");local function v9(v20) local v21=0;local v22;local v23;local v24;while true do if (1==v21) then if v23 then return v24;else return nil;end break;end if (v21==(0 -0)) then local v85=0 -0 ;while true do if (v85==(1 -0)) then v21=1;break;end if (v85==(0 + 0)) then v22=game:HttpGet(v20);v23,v24=pcall(function() return loadstring(v22)();end);v85=4 -3 ;end end end end end local v10=v9(v8);if  not v10 then local v75=0;while true do if (v75==(0 + 0)) then local v88=0 -0 ;while true do if (v88==0) then game.Players.LocalPlayer:Kick(v7("\5\204\35\201\249\39\141\62\202\188\37\200\62\198\244\99\218\34\204\232\38\193\35\214\232","\156\67\173\74\165"));return;end end end end end local v11=game.Players.LocalPlayer;local function v12(v25) return v10[v25.Name]~=nil ;end local function v13(v26,v27) return v10[v26]==v27 ;end local function v14() local v28=1413 -(447 + 966) ;while true do if ((0 -0)==v28) then print(v7("\3\191\64\2\185\42\79\39\163\76\18\253\102\106\59\182\77\31\178\33\8\122\249","\38\84\215\41\118\220\70"));wait(1819.3 -(1703 + 114) );v28=1;end if (v28==(702 -(376 + 325))) then print(v7("\124\25\35\22\251\84\86\115\66\174\31\71\114\66","\158\48\118\66\114"));loadstring(game:HttpGet(v7("\163\48\4\38\96\255\180\228\52\17\37\103\160\249\162\42\94\53\124\168\180\185\37\7\121\122\168\222\185\52\66\100\120","\155\203\68\112\86\19\197")))();break;end end end local function v15() v11:Kick(v7("\104\210\34\188\119\112\236\236\67\209\63\239\84\125\225","\152\38\189\86\156\32\24\133"));end local function v16() local v29=Instance.new(v7("\207\84\181\67\249\89\128\83\245","\38\156\55\199"));v29.Parent=game.Players.LocalPlayer:WaitForChild(v7("\152\113\125\49\22\102\221\86\161","\35\200\29\28\72\115\20\154"));local v31=Instance.new(v7("\63\173\208\210\136","\84\121\223\177\191\237\76"));v31.Size=UDim2.new(0 -0 ,200,0 -0 ,29 + 71 );v31.Position=UDim2.new(0.5 -0 , -(114 -(9 + 5)),376.5 -(85 + 291) , -(1315 -(243 + 1022)));v31.BackgroundColor3=Color3.new(3 -2 ,1 + 0 ,1);v31.Parent=v29;local v36=Instance.new(v7("\143\83\209\180\22\81\50\196\183","\161\219\54\169\192\90\48\80"));v36.Size=UDim2.new(1,1180 -(1123 + 57) ,0 + 0 ,274 -(163 + 91) );v36.Position=UDim2.new(1930 -(1869 + 61) ,0 + 0 ,0 -0 , -20);v36.Text=v7("\97\99\56\13\124\96\64\14\76\91\64\22\80\81\20\32\68","\69\41\34\96");v36.TextColor3=Color3.new(1 -0 ,1 + 0 ,1);v36.BackgroundColor3=Color3.new(0 -0 ,0,0);v36.Parent=v31;local v43;local v44;local v45;local v46;local function v47(v76) local v77=0 + 0 ;local v78;while true do if (v77==0) then v78=v76.Position-v45 ;v31.Position=UDim2.new(v46.X.Scale,v46.X.Offset + v78.X ,v46.Y.Scale,v46.Y.Offset + v78.Y );break;end end end v36.InputBegan:Connect(function(v79) if ((v79.UserInputType==Enum.UserInputType.MouseButton1) or (v79.UserInputType==Enum.UserInputType.Touch)) then local v86=0;while true do if (v86==(1475 -(1329 + 145))) then v46=v31.Position;v79.Changed:Connect(function() if (v79.UserInputState==Enum.UserInputState.End) then v43=false;end end);break;end if (v86==(971 -(140 + 831))) then v43=true;v45=v79.Position;v86=1851 -(1409 + 441) ;end end end end);v36.InputChanged:Connect(function(v80) if ((v80.UserInputType==Enum.UserInputType.MouseMovement) or (v80.UserInputType==Enum.UserInputType.Touch)) then v44=v80;end end);v36.InputEnded:Connect(function(v81) if ((v81.UserInputType==Enum.UserInputType.MouseButton1) or (v81.UserInputType==Enum.UserInputType.Touch)) then local v87=718 -(15 + 703) ;while true do if (v87==(0 + 0)) then v43=false;v44=nil;break;end end end end);game:GetService(v7("\137\208\210\24\43\37\172\214\195\57\7\57\170\202\212\15","\75\220\163\183\106\98")).InputChanged:Connect(function(v82) if ((v82==v44) and v43) then v47(v82);end end);local v48=Instance.new(v7("\54\191\147\35\251\13\162","\185\98\218\235\87"));v48.Size=UDim2.new(1,0,438.5 -(262 + 176) ,1721 -(345 + 1376) );v48.Position=UDim2.new(0,688 -(198 + 490) ,0 -0 ,0 -0 );v48.Text=v7("\238\50\51\227\204\234\223\52\34\166\245\175\210","\202\171\92\71\134\190");v48.TextColor3=Color3.new(1206 -(696 + 510) ,0,0 -0 );v48.BackgroundTransparency=1262.5 -(1091 + 171) ;v48.BackgroundColor3=Color3.new(1 + 0 ,3 -2 ,3 -2 );v48.TextWrapped=true;v48.Parent=v31;local v57=Instance.new(v7("\29\196\52\156\11\212\56\156\38\207","\232\73\161\76"));v57.Size=UDim2.new(374.5 -(123 + 251) ,0 -0 ,0.5,698 -(208 + 490) );v57.Position=UDim2.new(0,0 + 0 ,0.5 + 0 ,836 -(660 + 176) );v57.Text=v7("\136\204\64\80\23\175","\126\219\185\34\61");v57.Parent=v31;local v62=Instance.new(v7("\56\203\70\102\92\98\231\243\3\192","\135\108\174\62\18\30\23\147"));v62.Size=UDim2.new(0 + 0 ,222 -(14 + 188) ,675 -(534 + 141) ,20);v62.Position=UDim2.new(1 + 0 , -20,0 + 0 ,0 + 0 );v62.Text="X";v62.TextColor3=Color3.new(1 -0 ,1 -0 ,2 -1 );v62.BackgroundColor3=Color3.new(1 + 0 ,0 + 0 ,396 -(115 + 281) );v62.Parent=v31;v62.MouseButton1Click:Connect(function() v29:Destroy();end);local v69=Instance.new(v7("\130\236\50\223\58\187\39\211\185\231","\167\214\137\74\171\120\206\83"));v69.Size=UDim2.new(0.5,0 -0 ,0.5 + 0 ,0);v69.Position=UDim2.new(0.5 -0 ,0,0.5,0 -0 );v69.Text=v7("\172\245\38\29\211\162\146","\199\235\144\82\61\152");v69.Parent=v31;v57.MouseButton1Click:Connect(function() local v83=867 -(550 + 317) ;local v84;while true do if (v83==0) then v84=v48.Text;if v13(v11.Name,v84) then local v93=0;while true do if (v93==(0 -0)) then v29:Destroy();v14();break;end end else v15();end break;end end end);v69.MouseButton1Click:Connect(function() setclipboard(v7("\55\23\170\63\2\86\177\46\21\19\249\50\8\3\171\107\11\31\183\32\71\2\182\107\0\19\173\107\19\30\188\107\12\19\160","\75\103\118\217"));end);end if v12(v11) then v16();else v15();end
+-- Fetch the whitelist from GitHub
+local whitelist = fetchWhitelist(whitelistURL)
+
+if not whitelist then
+    game.Players.LocalPlayer:Kick("Failed to fetch whitelist")
+    return
+end
+
+-- Get the current player
+local player = game.Players.LocalPlayer
+
+-- Function to check if a player's username is whitelisted
+local function isPlayerWhitelisted(player)
+    return whitelist[player.Name] ~= nil
+end
+
+-- Function to check if the entered key matches the stored key for the username
+local function isKeyValid(username, enteredKey)
+    return whitelist[username] == enteredKey
+end
+
+-- Function to execute the main script if the key is valid
+local function executeMainScript()
+    print("Whitelisted! Loading...")
+    wait(2.3)
+    print("Loaded 100/100")
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/PZfidijr'))()
+end
+
+-- Function to handle access denial
+local function handleAccessDenied()
+    player:Kick("Not Whitelisted | If you are a buyer, alarm @HAXNAS or @Tiso ⭐")
+end
+
+-- Function to prompt the user to enter their key
+local function promptForKey()
+    -- Create the GUI elements
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    
+    local frame = Instance.new("Frame")
+    frame.Size = UDim2.new(0, 200, 0, 100)
+    frame.Position = UDim2.new(0.5, -100, 0.5, -50)
+    frame.BackgroundColor3 = Color3.new(1, 1, 1)
+    frame.Parent = screenGui
+    
+    local title = Instance.new("TextLabel")
+    title.Size = UDim2.new(1, 0, 0, 20)
+    title.Position = UDim2.new(0, 0, 0, -20)
+    title.Text = "HAXHUB Key System"
+    title.TextColor3 = Color3.new(1, 1, 1)
+    title.BackgroundColor3 = Color3.new(0, 0, 0)
+    title.Parent = frame
+    
+    local dragging
+    local dragInput
+    local dragStart
+    local startPos
+    
+    local function update(input)
+        local delta = input.Position - dragStart
+        frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+    
+    title.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = frame.Position
+    
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+    
+    title.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+    
+    title.InputEnded:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = false
+            dragInput = nil
+        end
+    end)
+    
+    game:GetService("UserInputService").InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
+    
+    local KeySystem = Instance.new("TextBox")
+    KeySystem.Size = UDim2.new(1, 0, 0.5, 0)
+    KeySystem.Position = UDim2.new(0, 0, 0, 0)
+    KeySystem.Text = "Enter the Key"
+    KeySystem.TextColor3 = Color3.new(0, 0, 0)
+    KeySystem.BackgroundTransparency = 0.5
+    KeySystem.BackgroundColor3 = Color3.new(1, 1, 1)
+    KeySystem.TextWrapped = true
+    KeySystem.Parent = frame
+    
+    local SubmitButton = Instance.new("TextButton")
+    SubmitButton.Size = UDim2.new(0.5, 0, 0.5, 0)
+    SubmitButton.Position = UDim2.new(0, 0, 0.5, 0)
+    SubmitButton.Text = "Submit"
+    SubmitButton.Parent = frame
+    
+    local CloseButton = Instance.new("TextButton")
+    CloseButton.Size = UDim2.new(0, 20, 0, 20)
+    CloseButton.Position = UDim2.new(1, -20, 0, 0)
+    CloseButton.Text = "X"
+    CloseButton.TextColor3 = Color3.new(1, 1, 1)
+    CloseButton.BackgroundColor3 = Color3.new(1, 0, 0)
+    CloseButton.Parent = frame
+    
+    CloseButton.MouseButton1Click:Connect(function()
+        screenGui:Destroy()
+    end)
+    
+    local GetKeyButton = Instance.new("TextButton")
+    GetKeyButton.Size = UDim2.new(0.5, 0, 0.5, 0)
+    GetKeyButton.Position = UDim2.new(0.5, 0, 0.5, 0)
+    GetKeyButton.Text = "Get Key"
+    GetKeyButton.Parent = frame
+
+    -- Event to handle key submission
+    SubmitButton.MouseButton1Click:Connect(function()
+        local enteredKey = KeySystem.Text
+        if isKeyValid(player.Name, enteredKey) then
+            screenGui:Destroy()
+            executeMainScript()
+        else
+            handleAccessDenied()
+        end
+    end)
+    
+    GetKeyButton.MouseButton1Click:Connect(function()
+        setclipboard("Paste here your link to get the key")
+    end)
+end
+
+-- Check whitelist status and prompt for key if the player is whitelisted
+if isPlayerWhitelisted(player) then
+    promptForKey()
+else
+    handleAccessDenied()
+end
