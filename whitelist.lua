@@ -3,8 +3,7 @@ onlywooska = "owner",
 	Rip_ahit = "reap80",
     Wildman_TheGoat = "DWQJU238432Bcifohj",
     TREFUEGO98 = "IUROHGPUY845njbio",
-	hibro221234 = "IUROaIKD82wg894w",
-	writemyalbum = "y5u8923g6818904kms",
+	hibro221234 = "IUROaIKD82wg894w",	writemyalbum = "y5u8923g6818904kms",
 	Mynameis_blazer = "da7815rdfsaijn",
 	zayjohncena = "5hy5riju89234iu890",
 	MyGIockss = "4386856kgfoptrmef2",
@@ -22,11 +21,8 @@ onlywooska = "owner",
     ABZUES_RTX = "kdosmpsjwu29",
 	euejduq = "dwa3r23cdsa129",
 	PingVirus = "espptoes",
-    butterflybams = "tiso-alt",
+    butterflybams = "MAYMeNDGDcL7BF0y",
     Sw0rdm3nc = "SMuveqJ8no3cP5aV",
-    Isreal123 = "r7mOpBewCC4AL1EC",
-    test = "eLh7H4huxjbz8Yne",
-    aloomcore = "tiso-main",
-}
+    Isreal123 = "r7mOpBewCC4AL1EC",}
 
 return whitelist
