@@ -21,11 +21,11 @@ onlywooska = "owner",
     ABZUES_RTX = "kdosmpsjwu29",
 	euejduq = "dwa3r23cdsa129",
 	PingVirus = "espptoes",
-    butterflybams = "MAYMeNDGDcL7BF0y",
+    butterflybams = "tiso-alt",
     Sw0rdm3nc = "SMuveqJ8no3cP5aV",
     Isreal123 = "r7mOpBewCC4AL1EC",
     test = "eLh7H4huxjbz8Yne",
-    aloomcore = "UOnA3vHXL4y7S51G",
+    aloomcore = "tiso-main",
 }
 
 return whitelist
