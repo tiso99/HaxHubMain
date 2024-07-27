@@ -1,5 +1,7 @@
 local whitelist = {
-onlywooska = "owner",
+	aloomcore = "tiso-main",
+Kyshaunthegoat = "Hohoif90JrasbvCOE8",
+	onlywooska = "owner",
 	Rip_ahit = "reap80",
     Wildman_TheGoat = "DWQJU238432Bcifohj",
     TREFUEGO98 = "IUROHGPUY845njbio",
@@ -25,8 +27,6 @@ onlywooska = "owner",
     butterflybams = "MAYMeNDGDcL7BF0y",
     Sw0rdm3nc = "SMuveqJ8no3cP5aV",
     Isreal123 = "r7mOpBewCC4AL1EC",
-aloomcore = "tiso-main",
-Kyshaunthegoat = "Hohoif90JrasbvCOE8",
 
 
 }
