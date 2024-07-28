@@ -1,5 +1,5 @@
 local whitelist = {
-	Kyshaunthegoat = "Hohoif90JrasbvCOE8",
+Kyshaunthegoat = "Hohoif90JrasbvCOE8",
 	onlywooska = "owner",
 	Rip_ahit = "reap80",
     Wildman_TheGoat = "DWQJU238432Bcifohj",
@@ -32,6 +32,7 @@ local whitelist = {
     Asianboy500k = "3cAkV588av02lZpS",
     Not4real123 = "LVXELra5PUktbpiD",
     majdontfwyouu = "WVcBO8DuXeb0aFmZ",
+    aloomcore = "S2fuwkOdqCT9V5pD",
 }
 
 return whitelist
