@@ -30,7 +30,6 @@ Kyshaunthegoat = "Hohoif90JrasbvCOE8",
     H_pab = "Uc02wOCplXcRmo7r",
     okbuddyfn = "eLz2jbJj5Pvph71B",
 	Sw0rdm3nc = "ASDHOAGFRW8123HDda",
-    72x648 = "iiBvw2j4qOMReaGM",
 }
 
 return whitelist
