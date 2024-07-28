@@ -1,6 +1,4 @@
-local whitelist = {
-aloomcore = "tiso-main",
-Kyshaunthegoat = "Hohoif90JrasbvCOE8",
+local whitelist = {Kyshaunthegoat = "Hohoif90JrasbvCOE8",
 	onlywooska = "owner",
 	Rip_ahit = "reap80",
     Wildman_TheGoat = "DWQJU238432Bcifohj",
