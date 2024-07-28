@@ -1,5 +1,5 @@
 local whitelist = {
-	aloomcore = "tiso-main",
+aloomcore = "tiso-main",
 Kyshaunthegoat = "Hohoif90JrasbvCOE8",
 	onlywooska = "owner",
 	Rip_ahit = "reap80",
@@ -27,8 +27,7 @@ Kyshaunthegoat = "Hohoif90JrasbvCOE8",
     butterflybams = "MAYMeNDGDcL7BF0y",
     Sw0rdm3nc = "SMuveqJ8no3cP5aV",
     Isreal123 = "r7mOpBewCC4AL1EC",
-
-
+    Haxhub_isbest = "8DFK6ZuF6OVHedar",
 }
 
 return whitelist
