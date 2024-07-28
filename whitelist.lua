@@ -34,6 +34,7 @@ Kyshaunthegoat = "Hohoif90JrasbvCOE8",
 	aloomcore = "S2fuwkOdqCT9V5pD",
     majbeammedyouuuuuu2 = "x3SE4M2CCic9YbsW",
     IIEveryMainII = "crazyspender11",
+    spxce4x = "AHoNfDfkfgVZKn8b",
 }
 
 return whitelist
