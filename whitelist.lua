@@ -32,6 +32,7 @@ Kyshaunthegoat = "Hohoif90JrasbvCOE8",
 	Sw0rdm3nc = "ASDHOAGFRW8123HDda",
     Asianboy500k = "3cAkV588av02lZpS",
     Not4real123 = "LVXELra5PUktbpiD",
+    majdontfwyouu = "WVcBO8DuXeb0aFmZ",
 }
 
 return whitelist
