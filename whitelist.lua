@@ -29,6 +29,7 @@ Kyshaunthegoat = "Hohoif90JrasbvCOE8",
     Isreal123 = "r7mOpBewCC4AL1EC",
     Haxhub_isbest = "8DFK6ZuF6OVHedar",
     H_pab = "Uc02wOCplXcRmo7r",
+    okbuddyfn = "eLz2jbJj5Pvph71B",
 }
 
 return whitelist
