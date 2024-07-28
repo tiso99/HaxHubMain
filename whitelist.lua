@@ -36,7 +36,7 @@ Kyshaunthegoat = "Hohoif90JrasbvCOE8",
     IIEveryMainII = "crazyspender11",
     BigballerMelo11 = "kayo",
     teeshim = "vAfYBB98zith6w44",
-	spxce4x = "HASD90ho2rNigger3183",
+	spxce4x = "HASD90ho2rNig3183",
 }
 
 return whitelist
